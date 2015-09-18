@@ -1,5 +1,5 @@
 ## Sass @mixins , @function , @extend
-SCSS simple solutions that are useful every day, the main idea is to make work easier and effective.
+<strong>SCSS simple solutions</strong> that are useful every day, the main idea is to make work <strong>easier</strong> and effective.
 
 ### Install with Bower
 
