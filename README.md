@@ -1,4 +1,6 @@
 ## Sass @mixins , @function , @extend
+SCSS simple solutions that are useful every day, the main idea is to make work easier and effective.
+
 ### Install with Bower
 
 You can install the package using [Bower](http://bower.io/). 
