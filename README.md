@@ -21,7 +21,7 @@ You can install the package using [Bower](http://bower.io/).
 * [unvisible](mixins/_unvisible.scss) - hide text or hide element without display:none
 
 #### Some important function:
-* [z-index](functions/_z-index.scss) - z-index in one place - example ( http://sassmeister.com/gist/cffa96ad7cea70ef5ef7 )
+* [z-index](functions/_z-index.scss) - organize z-index in array - example ( http://sassmeister.com/gist/cffa96ad7cea70ef5ef7 )
 
 
 #### Some important extended:
