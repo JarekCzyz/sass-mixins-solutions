@@ -1,4 +1,4 @@
-## Sass @mixins , @function , @extend for everyday use
+## Sass @mixins , @function , @extend
 
 ### Some important Sass-Mixins:
 * [allmq](mixins/_allmq.scss) - globally media queries mixin and Iphone
@@ -10,7 +10,7 @@ Documentation on how to use each of these can be found in the partials.
 
 You can install the package using [Bower](http://bower.io/). Please run
 
-	$ bower install --save-dev bb-sass-mixins
+	$ bower install --save-dev sass-mixins-solutions
 
 in your project's root directory to install the mixins repository. After that
 you can require the mixins file within your project.
