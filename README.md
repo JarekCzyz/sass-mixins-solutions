@@ -15,9 +15,11 @@ You can install the package using [Bower](http://bower.io/).
    - example http://sassmeister.com/gist/1134e7f98f4b31c2b711
 * [longshadow](mixins/_longshadow.scss) - create longshadow on element
 * [multiple](mixins/_multiple.scss) - small mixins (text-overflow, resiable , circle , absolute) in one file
+   - example http://sassmeister.com/gist/a884e33f62b2c0536d94
 * [placeholder](mixins/_placeholder.scss) - mixin for placeholder in for example in input form
 * [selection](mixins/_selection.scss) - change background and color in selection element in all documents body
 * [svgfallback](mixins/_svgfallback.scss) - svg img [svg - png] fallback with modernizr class : inlinesvg , backgroundsize
+   - example http://sassmeister.com/gist/a3befa69f426fcbcab7c
 * [transparent](mixins/_transparent.scss) - transparent background-color with fallback in IE9
 * [unvisible](mixins/_unvisible.scss) - hide text or hide element without display:none
 
