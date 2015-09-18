@@ -12,8 +12,6 @@
     "scss mixin",
     "sass solution",
   ],
-  "license": "MIT",
-  "homepage": "/",
   "ignore": [
     "**/.*",
     "node_modules",
