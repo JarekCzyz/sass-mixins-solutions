@@ -1,0 +1,24 @@
+{
+  "name": "sass-mixins-solutions",
+  "version": "1.0.0",
+  "authors": [
+    "jczyz <jaroslaw.czyz@bossbyte.com>"
+  ],
+  "description": "Useful sass mixins find a solution for : bg svgfallback , manage z-index , unvisible elements ...",
+  "main": "main",
+  "keywords": [
+    "sass",
+    "sass mixin",
+    "scss mixin",
+    "sass solution",
+  ],
+  "license": "MIT",
+  "homepage": "/",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
