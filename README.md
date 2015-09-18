@@ -1,5 +1,4 @@
-
-# Sass @mixins , @function , @extend
+## Sass @mixins , @function , @extend for everyday use
 
 ### Some important Sass-Mixins:
 * [allmq](mixins/_allmq.scss) - globally media queries mixin and Iphone
@@ -16,20 +15,11 @@ You can install the package using [Bower](http://bower.io/). Please run
 in your project's root directory to install the mixins repository. After that
 you can require the mixins file within your project.
 
+## In the future :
 
-## Contribute
+* Mixin flexbox grid used
 
-Please [file an issue](https:// ) if you
-think something could be improved. Please submit Pull Requests when ever
-possible.
-
-## After two weeks later :
-
-* Mixin flexbox used
-* Function for z-index and manage for that in project
-
-## Thanks 
-### In package its collection of mixin for everyday use , I should thanks for authors :
+## Special Thanks for author :
 * Rafal Bromirski - mixin _allmq.scss - https://github.com/paranoida/sass-mediaqueries
 
 ## License
