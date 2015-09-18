@@ -2,7 +2,7 @@
   "name": "sass-mixins-solutions",
   "version": "1.0.0",
   "authors": [
-    "jczyz <jaroslaw.czyz@bossbyte.com>"
+    "Jarosław Czyż <jaroslaw.czyz@bossbyte.pl>"
   ],
   "homepage": "https://github.com/JarekCzyz/sass-mixins-solutions",
   "description": "Useful sass mixins find a solution for : bg svgfallback , manage z-index , unvisible elements ...",
@@ -10,7 +10,7 @@
     "sass",
     "sass mixin",
     "scss mixin",
-    "sass solution",
+    "sass solution"
   ],
   "ignore": [
     "**/.*",
