@@ -12,14 +12,14 @@ You can install the package using [Bower](http://bower.io/).
 #### Some important mixins:
 * [allmq](mixins/_allmq.scss) - globally media queries mixin and special for Iphone /Ipad
 * [center element](mixins/_center.scss) - center element in horizontal , vertical in (flexbox , transform or table) 
-   - example http://sassmeister.com/gist/1134e7f98f4b31c2b711
+   - <strong>http://sassmeister.com/gist/1134e7f98f4b31c2b711 </strong>
 * [longshadow](mixins/_longshadow.scss) - create longshadow on element
 * [multiple](mixins/_multiple.scss) - small mixins (text-overflow, resiable , circle , absolute) in one file
-   - example http://sassmeister.com/gist/a884e33f62b2c0536d94
+   - <strong> http://sassmeister.com/gist/a884e33f62b2c0536d94</strong>
 * [placeholder](mixins/_placeholder.scss) - mixin for placeholder in for example in input form
 * [selection](mixins/_selection.scss) - change background and color in selection element in all documents body
 * [svgfallback](mixins/_svgfallback.scss) - svg img [svg - png] fallback with modernizr class : inlinesvg , backgroundsize
-   - example http://sassmeister.com/gist/a3befa69f426fcbcab7c
+   - <strong> http://sassmeister.com/gist/a3befa69f426fcbcab7c</strong>
 * [transparent](mixins/_transparent.scss) - transparent background-color with fallback in IE9
 * [unvisible](mixins/_unvisible.scss) - hide text or hide element without display:none
 
