@@ -5,6 +5,7 @@
     "Jarosław Czyż <jaroslaw.czyz@bossbyte.pl>"
   ],
   "homepage": "https://github.com/JarekCzyz/sass-mixins-solutions",
+  "main":"",
   "description": "Useful sass mixins find a solution for : bg svgfallback , manage z-index , unvisible elements ...",
   "keywords": [
     "sass",
