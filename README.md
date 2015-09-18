@@ -9,11 +9,13 @@ You can install the package using [Bower](http://bower.io/).
 
 #### Some important mixins:
 * [allmq](mixins/_allmq.scss) - globally media queries mixin and special for Iphone /Ipad
-* [svgfallback](mixins/_svgfallback.scss) - svg img [svg - png] fallback with modernizr class : inlinesvg , backgroundsize
-* [longshadow](mixins/_longshadow.scss) - create longshadow on element
 * [center element](mixins/_center.scss) - center element in horizontal , vertical in (flexbox , transform or table)
+* [longshadow](mixins/_longshadow.scss) - create longshadow on element
 * [placeholder](mixins/_placeholder.scss) - mixin for placeholder in for example in input form
-
+* [selection](mixins/_selection.scss) - change background and color in selection element in all documents body
+* [svgfallback](mixins/_svgfallback.scss) - svg img [svg - png] fallback with modernizr class : inlinesvg , backgroundsize
+* [transparent](mixins/_transparent.scss) - transparent background-color with fallback in IE9
+* [unvisible](mixins/_unvisible.scss) - hide text or hide element without display:none
 
 #### Some important function:
 * [z-index](functions/_z-index.scss) - z-index in one place - example ( http://sassmeister.com/gist/cffa96ad7cea70ef5ef7 )
