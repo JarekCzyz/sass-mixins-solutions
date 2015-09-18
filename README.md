@@ -11,7 +11,7 @@ You can install the package using [Bower](http://bower.io/).
 
 #### Some important mixins:
 * [allmq](mixins/_allmq.scss) - globally media queries mixin and special for Iphone /Ipad
-* [center element](mixins/_center.scss) - center element in horizontal , vertical in (flexbox , transform or table)
+* [center element](mixins/_center.scss) - center element in horizontal , vertical in (flexbox , transform or table) - example http://sassmeister.com/gist/1134e7f98f4b31c2b711
 * [longshadow](mixins/_longshadow.scss) - create longshadow on element
 * [multiple](mixins/_multiple.scss) - small mixins (text-overflow, resiable , circle , absolute) in one file
 * [placeholder](mixins/_placeholder.scss) - mixin for placeholder in for example in input form
