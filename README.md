@@ -1,5 +1,5 @@
 
-# Sass @mixins , @function , @extend for everyday use
+# Sass @mixins , @function , @extend
 
 ### Some important Sass-Mixins:
 * [allmq](mixins/_allmq.scss) - globally media queries mixin and Iphone
