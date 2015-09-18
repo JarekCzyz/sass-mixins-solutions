@@ -4,8 +4,8 @@
   "authors": [
     "jczyz <jaroslaw.czyz@bossbyte.com>"
   ],
+  "homepage": "https://github.com/JarekCzyz/sass-mixins-solutions",
   "description": "Useful sass mixins find a solution for : bg svgfallback , manage z-index , unvisible elements ...",
-  "main": "main",
   "keywords": [
     "sass",
     "sass mixin",
@@ -21,4 +21,5 @@
     "test",
     "tests"
   ],
+  "license": "MIT"
 }
