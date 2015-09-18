@@ -1,0 +1,34 @@
+//
+// Visible / Unvisible elements - usefull for sass animation 
+// -----------------------------------------------------------
+
+
+// Hide text
+@mixin hide-text {
+    font: unquote("0/0") a;
+    color: transparent;
+    text-shadow: none;
+    background-color: transparent;
+    border: 0;
+}
+
+// Visual hidden 
+@mixin cutout{
+  position: absolute; 
+  overflow: hidden; 
+  clip: rect(0 0 0 0); 
+  height: 1px; 
+  width: 1px; 
+  margin: -1px; 
+  padding: 0; 
+  border: 0;
+}
+
+@mixin visible {
+	visibility: visible;
+    opacity:1;
+}
+@mixin unvisible {
+	visibility: hidden;
+    opacity:0;
+}

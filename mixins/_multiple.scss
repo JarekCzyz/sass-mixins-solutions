@@ -1,0 +1,62 @@
+//
+// Smaller mixin in one file
+// --------------------------------------------------
+
+// Text overflow
+@mixin text-overflow {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+// Resize
+@mixin resizable($direction) {
+    resize: $direction;
+    // Options: horizontal, vertical, both
+    overflow: auto;
+}
+
+// Return h1,h2,h3,h4,h5,h6 { "@content" }
+@mixin headings($from: 1, $to: 6) {
+    @for $i from $from through $to {
+        h#{$i} {
+            @content;
+        }
+    }
+}
+
+// Center block
+@mixin center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+// Set abolute position in element
+@mixin abs-pos($top: auto, $right: auto, $bottom: auto, $left: auto) {
+    top: $top;
+    right: $right;
+    bottom: $bottom;
+    left: $left;
+    position: absolute;
+}
+
+// Create circle in &:pesudoelement
+@mixin circle($size) {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    left: calc(50% - #{#{$size / 2}});
+    top: calc(50% - #{#{$size / 2}});
+    width: $size;
+    height: $size;
+    display: block;
+}
+
+// Make float element
+@mixin make-float($float: left) {
+    width: auto;
+    float: $float;
+    display: block;
+    @include clearfix;
+}

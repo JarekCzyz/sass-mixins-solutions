@@ -1,0 +1,16 @@
+//
+// Transparent in background-color
+// --------------------------------------------------
+
+@mixin transparent($color, $alpha) {
+  $rgba: rgba($color, $alpha);
+  $ie-hex-str: ie-hex-str($rgba);
+  background-color: transparent;
+  background-color: $rgba;
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#{$ie-hex-str},endColorstr=#{$ie-hex-str}); // IE8
+ //-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#{$ie-hex-str},endColorstr=#{$ie-hex-str})";   // IE7 - IE 6 
+  zoom: 1;
+  .ie9 & {
+  	filter:none;
+  }
+}

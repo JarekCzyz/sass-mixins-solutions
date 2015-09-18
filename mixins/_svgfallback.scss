@@ -1,0 +1,39 @@
+//
+// SVG fallback
+// --------------------------------------------------
+
+@mixin mdr-class($class) {
+    .#{$class} & {
+        @content;
+    }
+}
+
+// LIBSASS
+// Sass mixin for SVG with fallback support using the invisible gradient technique
+
+$path: ""!default;
+
+@mixin vector-image($svg, $fallback, $position: center center, $size: auto, $width: auto, $height: auto, $repeat: no-repeat) {
+    //  @include mdr-class(svg) {
+    background-image: -webkit-linear-gradient(transparent, transparent), url("#{$path}#{$svg}.svg");
+    background-image: linear-gradient(transparent, transparent), url("#{$path}#{$svg}.svg");
+    background-image: url("#{$path}#{$svg}.svg"), none;
+    background-size: $size;
+    // }
+    @include mdr-class(no-backgroundsize) {
+        background: transparent url("#{$path}#{$fallback}.png") $position no-repeat;
+    }
+
+    @include mdr-class(no-inlinesvg) {
+        background: transparent url("#{$path}#{$fallback}.png") $position $size no-repeat;
+    }
+
+    background-repeat: #{$repeat};
+    background-position: #{$position};
+    @if $width != "auto" {
+        width: $width;
+    }
+    @if $height != "auto" {
+        height: $height;
+    }
+}

@@ -1,0 +1,35 @@
+
+//
+// Z-INDEX 
+// --------------------------------------------------
+
+$z-layers: (
+  "example": (
+    "sub-example":     3,
+    "sub-example2":    2 
+  ),
+  "example2": (
+    "sub-example":     9, 
+  ),
+  "example3":          1,
+);
+
+@function map-fetch($map, $keys) {
+  @each $key in $keys {
+    $map: map-get($map, $key);
+  }
+  @return $map;
+}
+
+
+//
+// How to use 
+// -------------------------------------------------
+// .logo {
+//   z-index : map-fetch($z-layers, example sub-example2);
+// }
+
+// For example :
+//
+// http://sassmeister.com/gist/cffa96ad7cea70ef5ef7
+// 

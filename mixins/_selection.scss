@@ -1,0 +1,21 @@
+//
+// Selection text in body
+// --------------------------------------------------
+ 
+@mixin selection($background: blue, $color: white, $text-shadow: none) {
+    ::selection {
+        background: $background;
+        color: $color;
+        text-shadow: $text-shadow;
+    }
+    ::-moz-selection {
+        background: $background;
+        color: $color;
+        text-shadow: $text-shadow;
+    }
+    ::-webkit-selection {
+        background: $background;
+        color: $color;
+        text-shadow: $text-shadow;
+    }
+}

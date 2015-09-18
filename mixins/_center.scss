@@ -1,0 +1,45 @@
+//
+// Center elements
+// --------------------------------------------------
+
+// Vertical center elements with position absolute 
+@mixin vert-center{
+	position:absolute;
+	top:50%;
+	transform:translateY(-50%);
+}
+
+// Horizontal center elements with position absolute 
+@mixin hor-center{
+	position:absolute;
+	left:50%;
+	transform:translateX(-50%);
+}
+
+// Horizontal and Vertical center elements with position absolute 
+@mixin all-center {
+	position:absolute;
+	left:50%;
+	top:50%;
+	transform:translate3d(-50%,-50%,0);
+}
+
+// Horizontal and Vertical center elements with position absolute 
+@mixin tabs-center {
+	 display:table;
+	 width:100%;
+	 height:100%;
+
+	 & > * {
+	 	display:table-cell;
+	 	vertical-align: center;
+	 	text-align:center;
+	 } 
+}
+
+// Horizontal and Vertical center elements with position absolute 
+@mixin all-center-flex {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
