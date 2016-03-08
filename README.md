@@ -9,7 +9,7 @@ You can install the package using [Bower](http://bower.io/).
 
 
 
-#### Some important mixins:
+### Some important mixins:
 * [allmq](mixins/_allmq.scss) - globally media queries mixin and special for Iphone /Ipad
 * [center element](mixins/_center.scss) - center element in horizontal , vertical in (flexbox , transform or table) 
    - <strong>http://sassmeister.com/gist/1134e7f98f4b31c2b711 </strong>
@@ -23,11 +23,11 @@ You can install the package using [Bower](http://bower.io/).
 * [transparent](mixins/_transparent.scss) - transparent background-color with fallback in IE9
 * [unvisible](mixins/_unvisible.scss) - hide text or hide element without display:none
 
-#### Some important function:
+### Some important function:
 * [z-index](functions/_z-index.scss) - organize z-index in array - example ( http://sassmeister.com/gist/cffa96ad7cea70ef5ef7 )
 
 
-#### Some important extended:
+### Some important extended:
 * [puregrid](extended/_puregrid.scss) - extended for row and for col class.
 
 
